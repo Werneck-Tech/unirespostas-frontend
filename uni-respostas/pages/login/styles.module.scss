@@ -1,0 +1,77 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 1110px;
+   margin : 100px auto;
+
+   h2{
+      font-size: 2.3rem;
+      font-weight: 600;
+      
+
+      margin : 10px 0px;
+   }
+
+   form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      span{
+         font-size: 1.2rem;
+         margin: 15px;
+      }
+
+      div{
+         margin-bottom: 35px;
+      }
+      
+      button{
+         background: var(--cyan-300);
+         border: none;
+         border-radius: 0.5rem;
+
+         font-weight: 600;
+         font-size: 1.2rem;
+
+         width: 340px;
+         height: 50px;
+
+         margin-bottom: 35px;
+
+         transition: filter 0.3s;
+
+         &:hover{
+            filter: brightness(90%);
+         }
+      }
+
+      
+
+   }
+}
+
+.divider{
+   width: 340px;
+   height: 2px;
+   background: #C4C4C4;
+
+}
+
+.createAccountButton{
+   background: transparent;
+   border: none;
+   margin-bottom: 15px;
+}
+
+.oAuthButtonsContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   button{
+      margin-bottom: 20px;
+   }
+}

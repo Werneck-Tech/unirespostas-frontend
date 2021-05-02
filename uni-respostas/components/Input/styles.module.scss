@@ -1,0 +1,26 @@
+.container{
+
+   height: 60px;
+   width: 340px;
+
+   display: flex;
+   align-items: center;
+   padding : 0 15px;
+
+   background: white;
+   border-radius: 0.5rem;
+   border: 1px solid  var(--gray-silver);
+
+   svg{
+      margin-right: 15px;
+   }
+
+   input{
+      width: 90%;
+      background: inherit;
+      border : 0;
+      outline: none;
+      color : #312C2C;
+   }  
+   
+}
